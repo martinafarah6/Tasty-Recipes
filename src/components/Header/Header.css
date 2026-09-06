@@ -1,0 +1,30 @@
+#header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+h1{
+    font-size:20px;
+    color:rgb(63, 63, 63);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+}
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+}
+nav ul li{
+    border:solid 1px gray;
+    border-radius: 24px;
+    padding:5px ;
+    background-color: rgb(113, 20, 20);
+    transition: all 0.25s ease-in-out;
+}
+nav ul li:hover{
+    transform: translateY(-2px);
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+}
