@@ -2,7 +2,9 @@
     border: 1px solid #8b5e5e;
     border-radius: 20px;
     padding: 50px;
-    margin: 20px;
+    margin: 40px auto; 
+    max-width: 1200px; 
+    width: 90%;       
     background: linear-gradient(135deg, #521111, #7b2929, #a64b4b);
     color: white;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
